@@ -1,5 +1,5 @@
 
-# Examples for `medusa-payment-yookassa`
+# `medusa-payment-yookassa` example
 
 Handy examples for setting up a development environment for the [medusa-payment-yookassa](https://www.npmjs.com/package/medusa-payment-yookassa) plugin.
 
@@ -14,13 +14,13 @@ Handy examples for setting up a development environment for the [medusa-payment-
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sergkudinov/medusa-payment-yookassa
+   git clone https://github.com/sergkuodi/medusa-payment-yookassa
    ```
 
 2. Install the `medusa-payment-yookassa` plugin in local:
    ```bash
    # Open a separate terminal window and run
-   cd plugin
+   cd packages/medusa-payment-yookassa
    
    # Install
    yarn
@@ -73,7 +73,7 @@ Handy examples for setting up a development environment for the [medusa-payment-
 5. Install and run the Medusa Storefront:
    ```bash
    # Open a separate terminal window and run
-   cd examples/medusa
+   cd examples/medusa-storefront
 
    # Set up environment variables
    cp .env.template .env
